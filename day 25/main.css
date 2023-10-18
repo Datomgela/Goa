@@ -17,3 +17,11 @@ a:visited {
 a:hover, a:active {
     color: #eee;
 }
+
+#Yellow{
+    color: yellow;
+}
+
+.Red {
+    color: red;
+}
