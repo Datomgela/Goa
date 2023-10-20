@@ -3,25 +3,25 @@ html {
 }
 
 body {
-    color: rgb(26, 255, 0);
+    color: rgb(0, 255, 0);
 }
 
 a {
-    color: rgb(0, 24, 244);
+    color: #000FFF;
 }
 
 a:visited {
-    color: rgb(0, 24, 244);
+    color: rgb(0, 0, 255);
 }
 
 a:hover, a:active {
-    color: #eee;
+    color: #FFFFFF;
 }
 
 #Yellow{
-    color: yellow;
+    color: rgb(255, 255, 0);
 }
 
 .Red {
-    color: red;
+    color: rgb(255, 0, 0);
 }
