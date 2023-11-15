@@ -6,6 +6,14 @@ body {
     color: rgb(0, 255, 0);
 }
 
+#Sign-up{
+    text-align: center;
+}
+
+#Site-title {
+    text-align: center;
+}
+
 a {
     color: #000FFF;
 }
