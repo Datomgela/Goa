@@ -1,0 +1,35 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    color: rgb(0, 255, 0);
+}
+
+#Sign-up{
+    text-align: center;
+}
+
+#Site-title {
+    text-align: center;
+}
+
+a {
+    color: #000FFF;
+}
+
+a:visited {
+    color: rgb(0, 0, 255);
+}
+
+a:hover, a:active {
+    color: #FFFFFF;
+}
+
+#Yellow{
+    color: rgb(255, 255, 0);
+}
+
+.Red {
+    color: rgb(255, 0, 0);
+}
