@@ -1,0 +1,9 @@
+#ul {
+    list-style-type: circle;
+}
+#ul_2{
+    list-style-type: square;
+}
+#ul_3 {
+    list-style-type: none;
+}
