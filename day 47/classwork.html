@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="text-input">Your name:</label>
+        <input type="text" id="text-input" name="User's name" required>
+
+        <br><br>
+
+        <label for="text">Your surname:</label>
+        <input type="text" id="text" name="User's_surname" required>
+
+        <br><br>
+
+        <label for="email-input">Email</label>
+        <input type="email" id="email-input" name="email-input" required>
+
+        <br><br>
+
+        <label for="password-input">Password</label>
+        <input type="password" id="password-input" name="password" required>
+
+        <br><br>
+
+        <label for="date-input">Date of birth:</label>
+        <input type="date" id="date-input" name="date-input">
+
+        <br><br>
+
+        <input type="submit">
+    </form>
+
+    <script>
+        
+        let userName = prompt("Your name: ");
+
+        let userSurname = prompt("Your surname: ");
+
+        let userEmail = prompt("Your email: ");
+
+        let userPassword = prompt("Your password: ");
+        
+        let userDate = prompt("Your date of birth: ");
+
+        console.log(userName, userSurname, userEmail, userPassword, userDate);
+    </script>
+</body>
+</html>

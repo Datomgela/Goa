@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button style="padding: 10px; background-color: rgb(0, 255, 21); border-radius: 10px;" onclick="changeText()">Click me</button>
+ 
+    <p id="txt">Hello</p>
+
+    <script>
+        let text = document.getElementById("txt");
+
+        function changeText() {
+            txt.textContent = "How are you?";
+            txt.style.color = "red";
+        }
+    </script>
+</body>
+</html>
