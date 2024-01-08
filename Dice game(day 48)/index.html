@@ -36,10 +36,15 @@
             border: 1px solid #ccc;
             background-color: #fff;
             border-radius: 10px;
-            position: relative;        
+            position: relative;
+            animation: shake 0.5s;
+            animation-iteration-count: infinite;
         }
 
         .dot {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
             width: 20px;
             height: 20px;
             background-color: #333;
@@ -97,35 +102,22 @@
 <body>
     <div class="container">
         <h1>Dice Roll Project</h1>
-        
         <div class="dice" id="player-dice"></div>
-        
         <div class="dice" id="computer-dice"></div>
-        
         <p class="player" id="player-name">Player</p>
-        
         <p class="computer" id="computer-name">Computer</p>
-        
         <p class="score" id="score">Score: 0 - 0</p>
-        
         <button id="roll-button">Roll Dice</button>
-        
         <button id="reset-button">Reset Score</button>
     </div>
     <script>
         // Get the elements from the document
         const playerDice = document.getElementById("player-dice");
-        
         const computerDice = document.getElementById("computer-dice");
-        
         const playerName = document.getElementById("player-name");
-        
         const computerName = document.getElementById("computer-name");
-        
         const score = document.getElementById("score");
-        
         const rollButton = document.getElementById("roll-button");
-        
         const resetButton = document.getElementById("reset-button");
 
         // Initialize the variables for the game logic
@@ -234,12 +226,6 @@
             // Reset the dice faces to show six
             changeDiceFace(playerDice, 6);
             changeDiceFace(computerDice, 6);
-
-            // Reset the names to show player and computer
-            playerName.className = "player";
-            playerName.textContent = "Player";
-            computerName.className = "computer";
-            computerName.textContent = "Computer";
 
             // Reset the score to show zero
             score.textContent = "Score: 0 - 0";
