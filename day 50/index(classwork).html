@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="checkbox" id="checkbox" />
+        <label for="checkbox">do you want to proceed payment</label>
+        <button type="button" id="btn">submit</button>
+    </form>
+    <script>
+        let input = document.getElementById('checkbox');
+        let btn = document.getElementById('btn');
+
+        btn.addEventListener('click', function(){
+            let value = input.checked;
+            
+            if(value === true){
+                alert("payement successful")
+            }else{
+                alert("payement declined")
+            }
+        });
+    </script>
+</body>
+</html>
