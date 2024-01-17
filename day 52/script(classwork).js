@@ -19,4 +19,4 @@ let r34 = {
 console.log(supra);
 console.log(supra.sound());
 console.log(r34);
-console.log(r34.sound);
+console.log(r34.sound());
