@@ -63,13 +63,13 @@ a {
     border: 2px solid #0D4671;
 }
 
-#AI-1 {
+#aI-1 {
     font-size: 2em;
     display: flex;
     justify-content: center;
 }
 
-#AI-2 {
+#aI-2 {
     display: flex;
     justify-content: center;
 }
@@ -80,7 +80,7 @@ a {
     padding: 2px 200px;
 }
 
-#AI-3 {
+#aI-3 {
     margin-top: 30px;
     display: flex;
     justify-content: center;
