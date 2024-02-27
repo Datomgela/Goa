@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Work Sans", sans-serif;
+  min-height: 100vh;
+  background-image: url(./assets/images/background-pattern-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: hsl(275, 100%, 97%);
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  width: 670px;
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 15px;
+}
+
+.container .heading {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+.container .heading h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.container .question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  color: hsl(292, 42%, 14%);
+}
+
+.container .question:hover {
+  color: hsl(292, 16%, 49%);
+}
+
+.container p {
+  color: hsl(292, 42%, 14%);
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.container .question img {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.container hr {
+  border: 1px solid hsl(275, 100%, 97%);
+}
