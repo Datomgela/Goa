@@ -1,14 +1,14 @@
-function schoolStudent(name, surname, score) {
+function SchoolStudent(name, surname, score) {
     this.name = name;
     this.surname = surname;
     this.score = score;
 }
 
-const student1 = new schoolStudent("Gio", "Megrelidze", 85);
-const student2 = new schoolStudent("Tamar", "Abashidze", 92);
-const student3 = new schoolStudent("Akaki", "Berishvili", 80);
-const student4 = new schoolStudent("Luka", "Davitadze", 95);
-const student5 = new schoolStudent("Davit", "Lekviashvili", 88);
+const student1 = new SchoolStudent("Gio", "Megrelidze", 85);
+const student2 = new SchoolStudent("Tamar", "Abashidze", 92);
+const student3 = new SchoolStudent("Akaki", "Berishvili", 80);
+const student4 = new SchoolStudent("Luka", "Davitadze", 95);
+const student5 = new SchoolStudent("Davit", "Lekviashvili", 88);
 
 console.log(student1);
 console.log(student2);
