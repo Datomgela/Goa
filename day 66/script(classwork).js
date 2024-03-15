@@ -34,6 +34,24 @@
 // console.log(sum);
 
 
+// const randomPass = function(passLength){
+//     const allChar = '!"#$%&()+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~';
+
+//     let result = '';
+
+//     for(let i = 0; i < passLength; i++){
+//         result += allChar[Math.floor(Math.random() * allChar.length)]
+//     }
+
+//     return result;
+// }
+
+
+// const newPass = randomPass(5);
+
+// console.log(newPass);
+
+
 // const numbers = [];
 // const promptText = "Enter numbers: ";
 // const count = 10;
@@ -60,6 +78,10 @@
 //     console.log(Math.sqrt(num1))
 
 //     sum += num1;
+//     mult*= num1;
+// }
+
+// console.log(sum, mult)
 //     mult*= num1;
 // }
 
